@@ -70,3 +70,20 @@ body{
 .columm-2{
     grid-column: span 2;
 }
+
+
+/* media query  */
+
+@media screen and (max-width: 1024px) {
+    .container{
+        flex-direction: column;
+    }
+    .gallery{
+        width: 100%;
+        grid-auto-rows: 220px;
+    }
+    .box{
+        grid-row: span 1;
+        grid-column: span 3;
+    }
+}
